@@ -14,12 +14,11 @@ import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
  *
  */
 @JsonIgnoreProperties(ignoreUnknown = true)
-public class ProductPrices {
+public class BestbuyProductPrices {
 
-	private String canonicalUrl;
 	private List<ProductPrice> products;
 	
-	public ProductPrices(){
+	public BestbuyProductPrices(){
 		
 	}
 	
